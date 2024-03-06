@@ -1,0 +1,26 @@
+/*selector universal*/
+*
+{
+    margin:0;
+}
+
+h1{
+    color: red;
+    font-size: 40px;
+    ;}
+.pazul{
+    color: blue;
+}
+
+#pverde{
+    color: green;
+}
+
+.caja{
+border: 1px solid black;
+background: blue;
+}
+
+div{
+
+}

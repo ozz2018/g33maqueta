@@ -1,0 +1,25 @@
+.negritas{
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    color: rgb(209, 205, 199);
+    background-color: rgb(28, 30, 31);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: white;
+}
+a
+{
+    color: rgb(125, 237, 165);
+    text-decoration: underline;
+}
+/*
+ol{
+    list-style-type: disc;;
+}*/
