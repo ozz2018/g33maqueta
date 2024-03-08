@@ -1,0 +1,121 @@
+div{
+    display: block;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    text-align: center;
+    color:white;
+    margin: 20px 0;
+    border-radius: 50%;
+
+}
+.cajaStatic{
+
+}
+/*position retive*/
+.cajaRelative{
+    position: relative;
+    top: -20px;
+    left: 100px;
+
+}
+
+/*posstion fixed*/
+.cajafixed{
+   position: fixed;
+   top:0;
+   right:0; 
+    z-index: 1;
+}
+/*posotion absoluta*/
+.cajaAbsolut{
+    position: absolute;
+    top: 0;
+
+}
+.cajaAbsolut2{
+    position: absolute;
+    top: 50;
+    right: 0;
+}
+
+.PadreRelativo{
+    width: 350px;
+    height: 250px;
+    border: 1px solid red;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+
+
+.buttonHover{
+    background-color: black;
+    color: white;
+    border: none;
+cursor: pointer;
+transition: all linear 2s;
+}
+
+.buttonHover:hover{
+    background-color: red;
+    color: greenyellow;
+
+}
+.buttonHover1{
+    background-color: black;
+    color: white;
+    border: none;rgb(136, 4, 4)
+cursor: pointer;
+transition: all linear 4s;
+}
+.buttonHover1:hover{
+    background-color: blueviolet;
+    color: greenyellow;
+
+}
+img{
+    width: 180;
+    transition: all linear 4s;
+
+}
+img:hover{
+    width: 180;
+    transition: all linear 4s;
+
+}
+.animaciones .caja{
+    animation: cambiarColor 5s infinite;
+}
+
+
+
+@keyframes cambiarColor{
+0%{
+
+}
+50%{
+
+}
+100%{
+    
+}
+}
+
+@keyframes2 moveBOx {
+0%{
+transform:translateX(0);
+background-color:yellow
+}
+
+100%{
+    transform:translateX(0);
+    background-color:red
+}
+}

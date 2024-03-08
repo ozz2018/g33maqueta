@@ -1,0 +1,70 @@
+div{
+    display: block;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+.circleFace{
+position: absolute;
+background-color: rgb(219, 206, 191);
+width: 150px;
+height: 150px;
+top: 150px;
+left: 70px;
+}
+.circleEarI{
+    position: relative;
+    top:  50px;
+    left: 10px;
+}
+.circleEarR{
+    position: relative;
+    top: -70px;
+    left: 155px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(18, 18, 177);
+    text-align: center;
+    color:white;
+    margin: 20px 0;
+    top: 0;
+}
+.PadreRelativo{
+    position: relative;
+    top: 400px;
+    right: 10;
+    width: 750px;
+    height: 650px;
+    border: 1px solid blue;
+    background-color: aqua;
+}
+.boxAbsolutW1{
+    top: 50px;
+    left: 70px;
+    position: absolute;
+}
+.boxAbsolutW2{
+    top: 50px;
+    left: 220px;
+    position: absolute;
+}
+.boxAbsolutW3{
+    top: 50px;
+    left: 370px;
+    position: absolute;
+}
+.boxAbsolutW4{
+    top: 50px;
+    left: 600px;
+    position: absolute;
+}
