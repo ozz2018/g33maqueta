@@ -1,0 +1,81 @@
+div{
+    display: block;
+}
+section{
+    display: block;
+}
+.container{
+    width: 90%;
+    min-height: 500px;
+    margin: 20px auto;
+    border: 10px solid rgb(9, 2, 66);
+    position: relative;
+}
+.cajaroja{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 12, 12);
+    text-align: center;
+    color:rgb(6, 35, 131);
+    margin: 20px 0;
+    border-radius: 30%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*flexbox*/
+
+.containerFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: initial;
+}
+.containerFlexR1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: initial;
+align-self: ;}
+.containerFlexR2{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-     ;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.containerFlexR3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.containerFlexR4{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 75px;
+}
+.containerFlexCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: initial;
+}
