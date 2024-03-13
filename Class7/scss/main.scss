@@ -1,0 +1,13 @@
+/*Variables*/
+$colorFondo:blue;
+$colorFondoS:red;
+$seccionMargin:20px 100px; 
+/*mixin*/
+@mixin flexColumnCenter($flexDirection,$justifyI){
+    display: flex;
+    align-items: center;
+    flex-direction: $flexDirection;
+    justify-items: $justifyI;
+}
+@import "perfil";
+@import "global";

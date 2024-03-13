@@ -1,0 +1,76 @@
+/*Variables*/
+/*mixin*/
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+}
+main .perfil img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+main .perfil h2 {
+  margin: 0;
+  font-size: 24px;
+  color: aquamarine;
+}
+main .perfil p {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #666;
+}
+main .perfil .redes-sociales {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-items: center;
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+}
+main .perfil .redes-sociales .icon {
+  width: 40px;
+  height: 40px;
+  /*&:hover
+  transform: scale(1.2);*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(187, 179, 169);
+  /*display: flex;
+  align-items: center;
+  justify-items: center;
+  */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.fondo {
+  background-color: blue;
+  height: 150px;
+  width: 300px;
+  margin: 20px 100px;
+}
+
+.fondo2 {
+  background-color: red;
+  height: 150px;
+  width: 300px;
+  margin: 20px 100px;
+}
+
+header h1 {
+  font-size: 50px;
+}/*# sourceMappingURL=main.css.map */
