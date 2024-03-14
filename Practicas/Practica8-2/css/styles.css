@@ -1,0 +1,33 @@
+.miContainer{
+    background-color: red  ;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.mirow .micol{
+    border-color: blue;
+    border-style: dotted;
+    border: 2px solid red;
+
+}
+.micol4{
+   /* height: 250px;
+    width: 25%;*/
+    border-style:dotted
+    border: 2px solid grey;
+    background-color: gray;
+    
+}
+
+.micol6{
+   /* height: 250px;
+    width: 50%;*/
+    border-end-end-radius: 92%;
+    border: 2px solid grey;
+    background-color: gray;
+
+
+}
+.separador{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
