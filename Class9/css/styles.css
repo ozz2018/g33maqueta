@@ -1,0 +1,9 @@
+.miContainer{
+    background-color: red  ;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.mirow .micol{
+    border-color: blue;
+    border-style: dotted;
+}

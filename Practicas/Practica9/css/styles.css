@@ -1,0 +1,12 @@
+.miContainer{
+    background-color: red  ;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.mirow .micol{
+    border-color: blue;
+}
+.cardR{
+    border-radius: 50%;
+
+}
